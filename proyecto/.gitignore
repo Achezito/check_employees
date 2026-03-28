@@ -1,0 +1,33 @@
+# Credenciales - NUNCA subir
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema operativo
+.DS_Store         # Mac
+Thumbs.db         # Windows
+desktop.ini       # Windows
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Logs
+*.log
